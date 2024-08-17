@@ -1,0 +1,14 @@
+(01) Orthopedic Impairment
+(02) Other Health Impairment
+(03) Auditory Impairment
+(04) Visual Impairment
+(05) Deaf/Blind
+(06) Intellectual Disability
+(07) Emotional Disturbance
+(08) Learning Disability
+(09) Speech Impairment
+(10) Autism
+(12) Developmental Delay
+(13) Traumatic Brain Injury
+(14) Non Categorical Early Childhood
+Multiple Disabilities

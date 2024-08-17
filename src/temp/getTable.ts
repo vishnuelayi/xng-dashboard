@@ -1,0 +1,73 @@
+import dayjs from "dayjs";
+import { StudentProfileRow } from "../design/high-level/table_accordions/student_profile_types";
+import { DAYJS_FORMATTER_DONTUSE } from "../views/students/_";
+
+export function getStudentProfileTable(): StudentProfileRow[] {
+  return [
+    {
+      studentStatus: "Success",
+      studentID: "0",
+      firstName: "Olivia",
+      lastName: "Wilson",
+      dob: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      grade: 1,
+      campus: "Ava S. Davis Middle School",
+      planOfCare: "IEP",
+      planOfCareStart: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      planOfCareEnd: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      progress: 50,
+    },
+    {
+      studentStatus: "Success",
+      studentID: "1",
+      firstName: "Olivia",
+      lastName: "Wilson",
+      dob: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      grade: 1,
+      campus: "Ava S. Davis Middle School",
+      planOfCare: "IEP",
+      planOfCareStart: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      planOfCareEnd: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      progress: 50,
+    },
+    {
+      studentStatus: "Success",
+      studentID: "2",
+      firstName: "Olivia",
+      lastName: "Wilson",
+      dob: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      grade: 1,
+      campus: "Ava S. Davis Middle School",
+      planOfCare: "IEP",
+      planOfCareStart: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      planOfCareEnd: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      progress: 50,
+    },
+    {
+      studentStatus: "Success",
+      studentID: "3",
+      firstName: "Olivia",
+      lastName: "Wilson",
+      dob: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      grade: 1,
+      campus: "Ava S. Davis Middle School",
+      planOfCare: "IEP",
+      planOfCareStart: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      planOfCareEnd: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      progress: 50,
+    },
+    {
+      studentStatus: "Success",
+      studentID: "4",
+      firstName: "Olivia",
+      lastName: "Wilson",
+      dob: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      grade: 1,
+      campus: "Ava S. Davis Middle School",
+      planOfCare: "IEP",
+      planOfCareStart: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      planOfCareEnd: dayjs().format(DAYJS_FORMATTER_DONTUSE),
+      progress: 50,
+    },
+  ];
+}
